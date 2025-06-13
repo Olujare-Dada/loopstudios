@@ -21,4 +21,5 @@ Steps to create Hamburger menu:
 8. Also define an open class for the hamburger menu in the input.css which translates the spans into an "X"
 9. Create a javascript file and add it to the top of index.html
 10. Use the above code to toggle the hamburger menu
+
 */
