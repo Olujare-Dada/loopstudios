@@ -1,6 +1,6 @@
 {
-  "buildCommand": "cd loopstudios-project && npm install && npm run build",
-  "outputDirectory": "loopstudios-project",
+  "buildCommand": "cd loopstudios-projects && npm install && npm run build",
+  "outputDirectory": "loopstudios-projects",
   "rewrites": [
     {
       "source": "/(.*)",
