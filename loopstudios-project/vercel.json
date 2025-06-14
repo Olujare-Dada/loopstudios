@@ -1,4 +1,10 @@
 {
-  "buildCommand": "npm install && npm run build",
-  "outputDirectory": "loopstudios-project"
+  "buildCommand": "cd loopstudios-project && npm install && npm run build",
+  "outputDirectory": "loopstudios-project",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
